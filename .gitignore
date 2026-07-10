@@ -1,0 +1,87 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Package artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking and linting
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Raw and generated data
+data/raw/*
+data/external/*
+data/interim/*
+data/processed/*
+
+# Preserve data directories
+!data/raw/.gitkeep
+!data/external/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Model outputs
+outputs/checkpoints/*
+outputs/figures/*
+outputs/logs/*
+outputs/metrics/*
+outputs/predictions/*
+
+# Preserve output directories
+!outputs/checkpoints/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/logs/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/predictions/.gitkeep
+
+# Machine learning artifacts
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+
+# Logs
+*.log
+
+# Docker overrides
+docker-compose.override.yml
