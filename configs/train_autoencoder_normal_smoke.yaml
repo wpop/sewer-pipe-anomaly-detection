@@ -1,0 +1,18 @@
+training:
+  epochs: 3
+  batch_size: 8
+  learning_rate: 0.001
+  latent_channels: 128
+  num_workers: 2
+
+image:
+  width: 256
+  height: 256
+
+paths:
+  train_manifest: data/interim/valid00_normal_train.csv
+  validation_manifest: data/interim/valid00_normal_val.csv
+  train_image_directory: data/raw/sewer_ml/valid00
+  validation_image_directory: data/raw/sewer_ml/valid00
+  checkpoint: outputs/checkpoints/normal_smoke_autoencoder.pt
+  history: outputs/metrics/normal_smoke_training_history.csv
