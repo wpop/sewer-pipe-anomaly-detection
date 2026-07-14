@@ -131,7 +131,7 @@ def main() -> None:
     )
 
     normal_score = generate_sample_heatmap(
-        filename="00245255.png",
+        filename="00262683.png",
         category="normal",
         model=model,
         preprocessor=preprocessor,
@@ -144,7 +144,7 @@ def main() -> None:
     )
 
     defective_score = generate_sample_heatmap(
-        filename="00064531.png",
+        filename="00085421.png",
         category="defective",
         model=model,
         preprocessor=preprocessor,
